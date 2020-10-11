@@ -1,0 +1,16 @@
+{
+  "name": "webpack-pitch-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jason Quense <monastic.panic@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "^4.3.0",
+    "loader-utils": "^2.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.0.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.0.0"
+  }
+}
