@@ -1,3 +1,5 @@
-import '../log-loader!../string-loader?content=hi!./styles.css'
+const foo = evil`
+  hi there if you change this string nothing updates asfasf
+`
 
-import './no-file.css!=!../log-loader!../string-loader?content=hi!'
+document.write(foo)

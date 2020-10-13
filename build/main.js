@@ -9,28 +9,16 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./log-loader.js!./string-loader.js?content=hi!./src/styles.css":
-/*!**********************************************************************!*\
-  !*** ./log-loader.js!./string-loader.js?content=hi!./src/styles.css ***!
-  \**********************************************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 1:0-14 */
-/***/ ((module) => {
-
-eval("module.exports = \"hi\"\n\n//# sourceURL=webpack://webpack-pitch-repro/./src/styles.css?./log-loader.js!./string-loader.js?content=hi");
-
-/***/ }),
-
 /***/ "./src/no-file.css!=!./log-loader.js!./string-loader.js?content=hi!":
 /*!**************************************************************************!*\
   !*** ./src/no-file.css!=!./log-loader.js!./string-loader.js?content=hi! ***!
   \**************************************************************************/
 /*! unknown exports (runtime-defined) */
-/*! runtime requirements:  */
-/***/ (() => {
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 1:0-14 */
+/***/ ((module) => {
 
-eval("throw new Error(\"Module build failed (from ./node_modules/css-loader/dist/cjs.js):\\nCssSyntaxError\\n\\n(1:1) Unknown word\\n\\n\\u001b[31m\\u001b[1m>\\u001b[22m\\u001b[39m\\u001b[90m 1 | \\u001b[39mmodule.exports = \\u001b[32m\\\"hi\\\"\\u001b[39m\\n \\u001b[90m   | \\u001b[39m\\u001b[31m\\u001b[1m^\\u001b[22m\\u001b[39m\\n\");\n\n//# sourceURL=webpack://webpack-pitch-repro/?./src/no-file.css!=!./log-loader.js!./string-loader.js?content=hi");
+eval("module.exports = \"hi\"\n\n//# sourceURL=webpack://webpack-pitch-repro/?./src/no-file.css!=!./log-loader.js!./string-loader.js?content=hi");
 
 /***/ }),
 
@@ -44,7 +32,7 @@ eval("throw new Error(\"Module build failed (from ./node_modules/css-loader/dist
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _log_loader_string_loader_content_hi_styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../log-loader!../string-loader?content=hi!./styles.css */ \"./log-loader.js!./string-loader.js?content=hi!./src/styles.css\");\n/* harmony import */ var _log_loader_string_loader_content_hi_styles_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_log_loader_string_loader_content_hi_styles_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _no_file_css_log_loader_string_loader_content_hi___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./no-file.css!=!../log-loader!../string-loader?content=hi! */ \"./src/no-file.css!=!./log-loader.js!./string-loader.js?content=hi!\");\n/* harmony import */ var _no_file_css_log_loader_string_loader_content_hi___WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_no_file_css_log_loader_string_loader_content_hi___WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n\n\n//# sourceURL=webpack://webpack-pitch-repro/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _no_file_css_log_loader_string_loader_content_hi___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./no-file.css!=!-!../log-loader!../string-loader?content=hi! */ \"./src/no-file.css!=!./log-loader.js!./string-loader.js?content=hi!\");\n/* harmony import */ var _no_file_css_log_loader_string_loader_content_hi___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_no_file_css_log_loader_string_loader_content_hi___WEBPACK_IMPORTED_MODULE_0__);\n// import '../log-loader!../string-loader?content=hi!./styles.css'\n\n\n\n\n//# sourceURL=webpack://webpack-pitch-repro/./src/index.js?");
 
 /***/ })
 
